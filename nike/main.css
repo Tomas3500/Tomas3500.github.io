@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400');
+
+body{
+    background: url("img/bg_t.jpg");
+    background-size: cover ;
+    margin: 0;
+    font-size: 0;
+}
+
+.inner{
+    width: 751px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.header__logo{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.menu__item{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.menu-right {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+   margin-top: 10px;
+}
+.menu__item:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+
+.menu__item--first{
+    margin-left: 0;
+}
+
+.menu__item--last{
+    margin-right: 118px;
+
+}
+
+
+.btn__menu{
+    margin: 0;
+}
+
+.menu__item{
+    margin-left: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+.img__left{
+    background: url("img/product_nike.jpg") no-repeat center top/ cover;
+    width: 500px;
+    height: 427px;
+    float: left;
+    overflow: hidden;
+    transition: 1s;
+    position: relative;
+}
+
+.img__left:hover {
+    transform: scale(1.2);
+}
+
+.info__right{
+    width: 211px;
+    background: #FFFFFF;
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+.info__new{
+    border: 1px solid #ffa60d;
+    display: inline-block;
+    background: #ffa60d;
+    color: #ffffff;
+    font-size: 24px;
+}
+.btn_close{
+    float: right;
+    clear: right;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.info__new {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-top: 44px;
+    margin-bottom: 0;
+}
+
+.name__description--right{
+    margin-top: 0;
+    padding-right: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color__blu{
+    color: #5e4fff;
+    margin: 0;
+}
+
+.inner:before, .inner:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.he__s1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    float: left;
+    clear: both;
+    margin-top: 22px;
+    padding: 0;
+
+}
+
+.stars{
+    display: inline-block;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 28px;
+    right: 50px;
+}
+
+.stars input{
+    display: none;
+}
+
+
+.stars input + label {
+    /*margin-top: 5px;*/
+    float: right;
+    /*clear: right;*/
+    display: block;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    background: url("img/Forma_1.jpg");
+    cursor: pointer;
+}
+
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label{
+    background: url("img/Forma1.jpg");
+}
+
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    float: left;
+    margin-top: 18px;
+    padding: 0;
+    clear: left;
+    margin-bottom: 4px;
+}
+
+.size_price{
+    font-weight: 300;
+    float: left;
+    clear: both;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.s-1-size{
+
+    box-sizing: border-box;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 30px;
+}
+
+.size {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: 2px solid transparent;
+}
+
+.size:hover{
+    border: 2px solid black;
+}
+
+.bt_s{
+    display: block;
+    line-height: 5px;
+    width: 118px;
+    height: 31px;
+    cursor: pointer;
+}
+.bt__color-pink {
+    font-family: 'Roboto', sans-serif;
+    background: #a200b8;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: 1px solid #A200B8;
+    margin-top: 36px;
+}
+
+.bt__color-white{
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    margin-top: 5px;
+    margin-bottom: 34px;
+}
+.a1 {
+    position: absolute;
+    width: 105%;
+    left: -2.5%;
+    height: 95%;
+    top: 2.5%;
+    background: rgba(255,255,255,.5);
+}
+.a2 {
+    position: absolute;
+    width: 110%;
+    left: -5%;
+    height: 90%;
+    top: 5%;
+    background: rgba(255,255,255,.5);
+}
+.inner--s1 {
+    margin-top: 70px;
+}
