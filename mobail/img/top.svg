@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1600" height="4444" viewBox="0 0 1600 4444">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #9c59db;
+        filter: url(#gradient-overlay-1);
+      }
+
+      .cls-4 {
+        fill: #9c59db;
+        filter: url(#gradient-overlay-2);
+      }
+
+      .cls-5 {
+        fill: #9c59db;
+        filter: url(#gradient-overlay-3);
+      }
+
+      .cls-6 {
+        fill: #9c59db;
+        filter: url(#gradient-overlay-4);
+      }
+
+      .cls-7 {
+        fill: #9c59db;
+        filter: url(#gradient-overlay-5);
+      }
+
+      .cls-9 {
+        fill: #cd9ca8;
+        filter: url(#gradient-overlay-6);
+      }
+
+      .cls-10 {
+        fill: #cd9ca8;
+        filter: url(#gradient-overlay-7);
+      }
+
+      .cls-11 {
+        fill: #8b90a4;
+        filter: url(#gradient-overlay-8);
+      }
+
+      .cls-12 {
+        fill: #8b90a4;
+        filter: url(#gradient-overlay-9);
+      }
+
+      .cls-13 {
+        fill: #cd9ca8;
+        filter: url(#gradient-overlay-10);
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="-4" y="3368" preserveAspectRatio="none" width="480" height="1076" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgwIiBoZWlnaHQ9IjEwNzYiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNDAiIHkxPSIxMDc2IiB4Mj0iMjQwIiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iIzljNTlkYiIvPgogIDxzdG9wIG9mZnNldD0iMC44ODUiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-2" filterUnits="userSpaceOnUse">
+      <feImage x="319" y="3516" preserveAspectRatio="none" width="641" height="928" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjQxIiBoZWlnaHQ9IjkyOCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjMyMC41IiB5MT0iOTI4IiB4Mj0iMzIwLjUiIHkyPSIwIj4KICA8c3RvcCBvZmZzZXQ9IjAuMTE1IiBzdG9wLWNvbG9yPSIjOWM1OWRiIi8+CiAgPHN0b3Agb2Zmc2V0PSIwLjg4NSIgc3RvcC1jb2xvcj0iIzYxZDJmMyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-3" filterUnits="userSpaceOnUse">
+      <feImage x="516" y="3516" preserveAspectRatio="none" width="776" height="928" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzc2IiBoZWlnaHQ9IjkyOCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjM1NS41NTQiIHkxPSI5MjgiIHgyPSI0MjAuNDQ2IiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iIzljNTlkYiIvPgogIDxzdG9wIG9mZnNldD0iMC44ODUiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-4" filterUnits="userSpaceOnUse">
+      <feImage x="608" y="3513" preserveAspectRatio="none" width="440" height="931" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDQwIiBoZWlnaHQ9IjkzMSI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ny40NDkiIHkxPSI5MzEiIHgyPSIyNTIuNTUxIiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iIzljNTlkYiIvPgogIDxzdG9wIG9mZnNldD0iMC44ODUiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-5" filterUnits="userSpaceOnUse">
+      <feImage x="1140" y="3520" preserveAspectRatio="none" width="462" height="924" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDYyIiBoZWlnaHQ9IjkyNCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjIzMSIgeTE9IjkyNCIgeDI9IjIzMSIgeTI9IjAiPgogIDxzdG9wIG9mZnNldD0iLTAuMDIiIHN0b3AtY29sb3I9IiM5YzU5ZGIiLz4KICA8c3RvcCBvZmZzZXQ9IjEuMDIiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-6" filterUnits="userSpaceOnUse">
+      <feImage x="612" y="0" preserveAspectRatio="none" width="400" height="358" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjM1OCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjIwMCIgeTE9IjM1OCIgeDI9IjIwMCIgeTI9IjAiPgogIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiM5YzU5ZGIiLz4KICA8c3RvcCBvZmZzZXQ9IjEuMjUiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-7" filterUnits="userSpaceOnUse">
+      <feImage x="1453" y="553" preserveAspectRatio="none" width="153" height="595" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTUzIiBoZWlnaHQ9IjU5NSI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijc2LjUiIHkxPSI1OTUiIHgyPSI3Ni41IiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iIzljNTlkYiIvPgogIDxzdG9wIG9mZnNldD0iMC44ODUiIHN0b3AtY29sb3I9IiM2MWQyZjMiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-8" filterUnits="userSpaceOnUse">
+      <feImage x="1520" y="795" preserveAspectRatio="none" width="85" height="360" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODUiIGhlaWdodD0iMzYwIj48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDIuNSIgeTE9IjAiIHgyPSI0Mi41IiB5Mj0iMzYwIj4KICA8c3RvcCBvZmZzZXQ9IjAuMTE1IiBzdG9wLWNvbG9yPSIjOWM1OWRiIi8+CiAgPHN0b3Agb2Zmc2V0PSIwLjg4NSIgc3RvcC1jb2xvcj0iIzYxZDJmMyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-9" filterUnits="userSpaceOnUse">
+      <feImage x="-6" y="-8" preserveAspectRatio="none" width="871" height="1173" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODcxIiBoZWlnaHQ9IjExNzMiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI0MzUuNSIgeTE9IjAiIHgyPSI0MzUuNSIgeTI9IjExNzMiPgogIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiM5YjVkZGMiLz4KICA8c3RvcCBvZmZzZXQ9IjEuMjUiIHN0b3AtY29sb3I9IiM2M2NmZjIiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-10" filterUnits="userSpaceOnUse">
+      <feImage x="-13" y="-1" preserveAspectRatio="none" width="745" height="1166" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzQ1IiBoZWlnaHQ9IjExNjYiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIzNzIuNSIgeTE9IjExNjYiIHgyPSIzNzIuNSIgeTI9IjAiPgogIDxzdG9wIG9mZnNldD0iMC4xMTUiIHN0b3AtY29sb3I9IiM5YzU5ZGIiLz4KICA8c3RvcCBvZmZzZXQ9IjAuODg1IiBzdG9wLWNvbG9yPSIjNjFkMmYzIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <g id="topsvg">
+    <path d="M612.000,-0.000 C612.000,-0.000 1012.000,-0.000 1012.000,-0.000 C1012.000,-0.000 1012.000,-0.000 1012.000,-0.000 C1012.000,-0.000 730.000,358.000 730.000,358.000 C730.000,358.000 612.000,-0.000 612.000,-0.000 Z" id="path-1" class="cls-9" fill-rule="evenodd"/>
+    <path d="M1606.000,916.000 C1606.000,916.000 1601.000,1148.000 1601.000,1148.000 C1601.000,1148.000 1453.000,981.000 1453.000,981.000 C1453.000,981.000 1604.000,553.000 1604.000,553.000 C1604.000,553.000 1606.000,916.000 1606.000,916.000 Z" id="path-2" class="cls-10" fill-rule="evenodd"/>
+    <path d="M1601.000,1089.000 C1601.000,1089.000 1602.000,1155.000 1602.000,1155.000 C1602.000,1155.000 1520.000,1054.000 1520.000,1054.000 C1520.000,1054.000 1605.000,795.000 1605.000,795.000 C1605.000,795.000 1601.000,1089.000 1601.000,1089.000 Z" id="path-3" class="cls-11" fill-rule="evenodd"/>
+    <path d="M-2.000,-8.000 C-2.000,-8.000 865.000,-4.000 865.000,-4.000 C865.000,-4.000 500.000,991.000 500.000,991.000 C500.000,991.000 -6.000,1165.000 -6.000,1165.000 C-6.000,1165.000 -2.000,-8.000 -2.000,-8.000 Z" id="path-4" class="cls-12" fill-rule="evenodd"/>
+    <path d="M-4.000,1.000 C-4.000,1.000 -13.000,-1.000 -13.000,-1.000 C-13.000,-1.000 732.000,352.000 732.000,352.000 C732.000,352.000 -5.000,1165.000 -5.000,1165.000 C-5.000,1165.000 -4.000,1.000 -4.000,1.000 Z" id="path-5" class="cls-13" fill-rule="evenodd"/>
+  </g>
+</svg>
