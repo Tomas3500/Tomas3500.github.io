@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+header {
+  background: #3c4955 url("img/computer.jpg") no-repeat center/cover;
+  min-height: 730px;
+}
+header .top_menu a {
+  text-decoration: none;
+  margin-left: 110px;
+  cursor: pointer;
+}
+header .top_menu a:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+header h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 25px;
+}
+
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 32px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.header_logo {
+  float: left;
+  display: block;
+}
+
+.top_menu {
+  float: right;
+  margin-top: 45px;
+}
+
+.header-info-center {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.content:before,
+.content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-bnt {
+  width: 137px;
+  height: 35px;
+  margin-top: 47px;
+  font-size: 14px;
+  border: 2px solid #48bf72;
+  border-radius: 2px;
+  background: none;
+  color: #48bf72;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.header-bnt:hover {
+  background: rgba(132, 243, 136, 0.3);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.top_menu a:not(:first-child):before {
+  content: " / ";
+  color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  right: 8%;
+}
+
+#center-photo {
+  background: url("img/men-computer.jpg") no-repeat center;
+  margin-top: 500px;
+}
+
+.content-center-right {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  padding-top: 80px;
+  text-align: left;
+}
+.content-center-right p {
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.6em;
+}
+.content-center-right h1 {
+  font-size: 25px;
+}
+.content-center-right a {
+  margin-top: 45px;
+  display: inline-block;
+  width: 148px;
+  border: #3c4955 solid 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #44505c;
+  text-align: center;
+  cursor: pointer;
+}
+.content-center-right a:hover {
+  background: #3a768f;
+  cursor: pointer;
+  transition: 1s;
+  color: #00b3ff;
+}
+
+.grid {
+  max-width: 1200px;
+}
+
+/* clear fix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+.grid-item {
+  float: left;
+  width: 450px;
+  margin: 15px;
+}
+
+.grid-item--width2 {
+  width: 200px;
+}
+
+.grid-item--height2 {
+  height: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ---- button ---- */
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  background: #eaeaea;
+  border: none;
+  border-radius: 3px;
+  color: #3c4955;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- button-group ---- */
+.button-group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.button-group .button:first-child {
+  border-radius: 2px;
+}
+
+.button-group .button:last-child {
+  border-radius: 2px;
+}
+
+/* ---- grid ---- */
+.grid {
+  max-width: 1200px;
+}
+
+/* clear fix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+.element-item {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.alkali {
+  background: #F00;
+  background: red;
+}
+
+.element-item.alkaline-earth {
+  background: #F80;
+  background: #ff9900;
+}
+
+.element-item.lanthanoid {
+  background: #FF0;
+  background: #ccff00;
+}
+
+.element-item.actinoid {
+  background: #0F0;
+  background: #33ff00;
+}
+
+.element-item.transition {
+  background: #0F8;
+  background: #00ff66;
+}
+
+.element-item.post-transition {
+  background: #0FF;
+  background: aqua;
+}
+
+.element-item.metalloid {
+  background: #08F;
+  background: #0066ff;
+}
+
+.element-item.diatomic {
+  background: #00F;
+  background: #3300ff;
+}
+
+.element-item.halogen {
+  background: #F0F;
+  background: #cc00ff;
+}
+
+.element-item.noble-gas {
+  background: #F08;
+  background: #ff0099;
+}
+
+/*# sourceMappingURL=main.css.map */
