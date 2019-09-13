@@ -6,18 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DRONE</title>
-    <link rel="stylesheet" href="css/scss/bootstrap-grid.css">
     <link rel="stylesheet" href="libs/font-awesome/css/all.min.css">
-    <!--<link rel="stylesheet" href="libs/font-awesome/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
 <main>
     <header>
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-2 align-self-center" >
+                <div class="col-md-3 align-self-center">
                     <div class="logo">
                         <a href="javascript:void(0);">superdrone.</a>
                     </div>
@@ -28,25 +27,31 @@
                     <a href="javascript:void(0);">Support</a>
                     <a href="javascript:void(0);">Blog</a>
                 </nav>
-                <div class="col-xl-2">
-                    <div class="basket align-self-center">
+                <div class="col-md-3">
+                    <div class="basket d-flex align-items-center justify-content-end">
                         <a href="javascript:void(0);">
-                            <img src="img/form.png" alt="fonts">
+                            <img src="img/cart.png" alt="fonts">
                         </a>
-                        <a class="btn_login" href="#">Login</a>
+                        <div id="btn">
+                            <a class="btn_login" href="#">Login</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-md-12">
                     <div class="header-title">
                         <h1>Your Receptionist
-                        Anywhere</h1>
+                            Anywhere</h1>
                         <p>When a user taps on a button in a mobile app, and the button
                             pulls down a navigation, that’s a microinteraction.
                         </p>
-                        <a class="btn-1" href="javascript:void(0);">by now</a>
-                        <a href="javascript:void(0);" class="fas fa-angle-double-down" id="scroll-next-section"></a>
+                        <div id="btn-by-now">
+                            <a class="btn-1" href="javascript:void(0);">by now</a>
+                        </div>
+                        <a href="javascript:void(0);" class="fas fa-angle-double-down"
+                           id="scroll-next-section">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -56,7 +61,7 @@
     <section id="section-light-drone">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-md-7">
                     <div class="light-drone">
                         <h2 class="title s-1">Super Light Drone</h2>
                         <p>
@@ -70,9 +75,7 @@
                             many reasons to use microinteractions. I can give you
                             four right now.
                             <br>
-                            <br>
-                            <br>
-                            The first good thing about microinteractions is improved
+                        <p>The first good thing about microinteractions is improved
                             usability.
                             If the animation of the menu, from the example I gave
                             above, slides
@@ -83,35 +86,35 @@
                             through visual
                             cues.
                         </p>
-                        <a href="javascript:void(0);">read more</a>
+                        </p>
+                        <div id="read-more">
+                            <a href="javascript:void(0);">read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--section - 1-->
-    <section>
+    <section id="section-slide">
         <div class="container">
-            <div class="row">
-                <div class="slider">
-                    <div class="play">
-                        <a href="javascript:void(0);"></a>
-                     </div>
-                    <img class="btn prev" src="img/bnt-prev.png" alt="prev">
-                    <img class="slid" src="img/bg-slide.jpg" alt="q">
-                    <img  class="btn next" src="img/bnt-next.png" alt="next">
-                    <img  class="slid" src="img/bg-slide2.jpg" alt="q">
-                  </div>
-             </div>
+            <div class="circle">
+                <div class="circle-small-center"></div>
+            </div>
+            <div class="play">
+                <a href="javascript:void(0);"></a>
+            </div>
+            <img class="btn-slide__prev" src="img/bnt-prev.png" alt="prev">
+            <img class="btn-slide__next" src="img/bnt-next.png" alt="next">
         </div>
     </section>
     <!--section - 2-->
     <section id="section-3">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-md-12">
                     <div class="services">
-                        <h2 class="title s-3">Super Services</h2>
+                        <h2 class="title">Super Services</h2>
                         <p>The first good thing about microinteractions is
                             improved usability. If the animation of the menu,
                             from the example I gave above, slides down and over
@@ -122,152 +125,142 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="services-ftn">
+                        <ul>
+                            <li>
+                                <img src="img/icon-1.png" alt="">
+                            </li>
+                            <li>4k resolution</li>
+                            <li>More specifically, microinteractions are the
+                                animations
+                                and changes of the interface that happen once a
+                                user
+                                interacts with something, anything.
+                                Consider them
+                                interactive but informative animations. There
+                                are many
+                                reasons to use microinteractions. I can give you
+                                four right now.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="services-ftn">
+                        <ul>
+                            <li>
+                                <img src="img/icon.png" alt="">
+                            </li>
+                            <li>TIMELAPSE</li>
+                            <li>More specifically, microinteractions are the
+                                animations
+                                and changes of the interface that happen once a
+                                user
+                                interacts with something, anything. Consider
+                                them interactive but informative animations.
+                                There are many reasons to use
+                                microinteractions.
+                                I can give you four right now.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="services-ftn">
+                        <ul>
+                            <li>
+                                <img src="img/icon-3.png" alt="">
+                            </li>
+                            <li>super speed</li>
+                            <li>More specifically, microinteractions are the
+                                animations
+                                and changes of the interface that happen once a user
+                                interacts with something, anything. Consider them
+                                interactive but informative animations. There are many
+                                reasons to use microinteractions. I can give you four
+                                right now.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <!--section 3-->
+    <section class="section-4">
+        <div class="container">
+            <div class="row justify-content-center align-center">
+                <div class="title text-center">
+                    <h3>The world's first seamless drone with a very
+                        lightweight hull and
+                        high travel speed
+                    </h3>
+                    <span>The V.360° Camera allows you to masterfully capture the whole
+                         story with a premium 360° camera for <br>limitless creating.
+                    </span>
+                </div>
+            </div>
             <div class="row">
-                    <div class="col-md-4">
-                        <div class="services-ftn">
-                            <ul>
-                                <li>
-                                    <img src="img/icon-1.png" alt="">
-                                </li>
-                                <li>4k resolution</li>
-                                <li>More specifically, microinteractions are the
-                                    animations
-                                    and changes of the interface that happen once a
-                                    user
-                                    interacts with something, anything. Consider them
-                                    interactive but informative animations. There
-                                    are many
-                                    reasons to use microinteractions. I can give you
-                                    four right now.</li>
-                            </ul>
-                        </div>
+                <div class="col-md-6 no-position">
+                    <img class="section-4-img__left" src="img/drone-s4.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <div class="section-4__description">
+                        <ul class="list-info__description">
+                            <li class="item_desc color-item">Length</li>
+                            <li class="item_desc"><h4>90 MM</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Battery</li>
+                            <li class="item_desc"><h4>180 MA * H</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Radius of action of equipment</li>
+                            <li class="item_desc"><h4>50 M</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Receiver included</li>
+                            <li class="item_desc"><h4>YES</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Transmitter included</li>
+                            <li class="item_desc"><h4>YES</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Color of the fuselage</li>
+                            <li class="item_desc"><h4>BLACK</h4></li>
+                        </ul>
                     </div>
-                    <div class="col-md-4">
-                        <div class="services-ftn">
-                            <ul>
-                                <li>
-                                    <img src="img/icon.png" alt="">
-                                </li>
-                                <li>TIMELAPSE</li>
-                                <li>More specifically, microinteractions are the
-                                    animations
-                                    and changes of the interface that happen once a
-                                    user
-                                    interacts with something, anything. Consider
-                                    them interactive but informative animations.
-                                    There are many reasons to use
-                                    microinteractions.
-                                    I can give you four right now.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="section-4__description">
+                        <ul class="list-info__description">
+                            <li class="item_desc color-item">Main screw diameter</li>
+                            <li class="item_desc"><h4>40 MM</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Flight time</li>
+                            <li class="item_desc"><h4>7 MIN</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Receiver</li>
+                            <li class="item_desc"><h4>2.4 GHZ</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Transmitter</li>
+                            <li class="item_desc"><h4>2.4 GHz, 4 channels</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Gyroscope</li>
+                            <li class="item_desc"><h4>6-AXIS</h4></li>
+                            <br>
+                            <li class="item_desc color-item">Need to buy</li>
+                            <li class="item_desc"><h4>4 х ААА batteries</h4></li>
+                        </ul>
                     </div>
-                    <div class="col-md-4">
-                        <div class="services-ftn">
-                            <ul>
-                                <li>
-                                    <img src="img/icon-3.png" alt="">
-                                </li>
-                                <li>super speed</li>
-                                <li>More specifically, microinteractions are the animations
-                                    and changes of the interface that happen once a user
-                                    interacts with something, anything. Consider them
-                                    interactive but informative animations. There are many
-                                    reasons to use microinteractions. I can give you four
-                                    right now.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!--section 4-->
-  <section class="section-4">
-      <hr>
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-12">
-                  <div class="specifications">
-                      <h3>The world's first seamless drone with a very lightweight hull
-                          and high travel speed
-                      </h3>
-                      <p>
-                          The V.360° Camera allows you to masterfully capture the whole
-                          story with a premium 360° camera for
-                          <br> limitless creating.
-                      </p>
-                  </div>
-              </div>
-          </div>
-          <div class="row justify-content-end">
-              <div class="col-xl-3">
-                  <div class="list-specif">
-                      <ul>
-                          <li>
-                              <p>Length</p>
-                              <span>90 мм</span>
-                          </li>
-                          <li>
-                              <p>Battery</p>
-                              <span>180 mA * h</span>
-                          </li>
-                          <li>
-                             <p>Radius of action of equipment</p>
-                              <span>50 м</span>
-                          </li>
-                          <li>
-                              <p>Receiver included	</p>
-                              <span>yes</span>
-                          </li>
-                          <li>
-                              <p>Transmitter included</p>
-                              <span>yes</span>
-                          </li>
-                          <li>
-                              <p>Color of the fuselage</p>
-                              <span>Black</span>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-xl-3">
-                  <div class="list-specif right">
-                      <ul>
-                          <li>
-                              <p>Main screw diameter</p>
-                              <span>40 мм</span>
-                          </li>
-                          <li>
-                              <p>
-                                  Flight time
-                              </p>
-                              <span>
-                              7 min
-                          </span>
-                          </li>
-                          <li><p>Receiver</p>
-                              <span>2.4 GHz</span>
-                          </li>
-                          <li><p>Transmitter</p>
-                              <span>2.4 GHz, 4 channels</span>
-                          </li>
-                          <li><p>Gyroscope</p>
-                              <span>6-axis</span>
-                          </li>
-                          <li><p>Need to buy</p>
-                              <span>4 х ААА batteries</span>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
     <!--section 4 -->
     <section class="section-5">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-md-12">
                     <div class="title-slide">
                         <h3>Mount to anything. Anywhere.</h3>
                         <p>Fully compatible with GoPro® mounts, traditional
@@ -278,25 +271,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="slideshow-container">
-            <div class="viewport">
-                <div class="slide-drone">
-                    <img src="img/drone-slide.jpg" alt="">
+            <div class="slideshow-container">
+                <div class="viewport">
+                    <div class="slide-drone">
+                        <img src="img/drone-slide.jpg" alt="">
+                    </div>
+                    <div class="slide-drone">
+                        <img src="img/drone-photo.jpg" alt="">
+                    </div>
+                    <div class="slide-drone">
+                        <img src="img/drone-photo-2.jpg" alt="">
+                    </div>
                 </div>
-                <div class="slide-drone">
-                    <img src="img/drone-photo.jpg" alt="">
-                </div>
-                <div class="slide-drone">
-                    <img src="img/drone-photo-2.jpg" alt="">
-                </div>
-            </div>
 
-            <a class="prev-slid">
-                <i class="fas fa-arrow-left"></i></a>
-            <a class="next-slid">
-                <i class="fas fa-arrow-right"></i></a>
+                <a class="prev-slid">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <a class="next-slid">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
+
+
     </section>
     <!--section 5-->
     <section class="section-6">
@@ -322,31 +319,31 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-md-3">
-                        <div class="block-drone center_new_block ">
-                            <div class="new_block_center">new</div>
-                            <img src="img/drone-buy2.jpg" alt="drone-buy">
-                            <div class="price">
-                                <p>
+                <div class="col-md-3">
+                    <div class="block-drone center_new_block ">
+                        <div class="new_block_center">new</div>
+                        <img src="img/drone-buy2.jpg" alt="drone-buy">
+                        <div class="price">
+                            <p>
                                 DJI Phantom 4 Pro+
-                                </p>
-                                <span>$ 399</span>
-                                <a href="javascript:void(0);">add to cart</a>
-                            </div>
+                            </p>
+                            <span>$ 399</span>
+                            <a href="javascript:void(0);">add to cart</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="block-drone">
-                            <img src="img/drone-buy3.jpg" alt="drone-buy">
-                            <div class="price">
-                                <p>
+                </div>
+                <div class="col-md-3">
+                    <div class="block-drone">
+                        <img src="img/drone-buy3.jpg" alt="drone-buy">
+                        <div class="price">
+                            <p>
                                 Skytech M62 2.4 Ghz
-                                </p>
-                                <span>$ 599</span>
-                                <a href="javascript:void(0);">add to cart</a>
-                            </div>
+                            </p>
+                            <span>$ 599</span>
+                            <a href="javascript:void(0);">add to cart</a>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     </section>
@@ -379,7 +376,7 @@
             </div>
             <div class="col-md-2">
                 <div class="info-footer center-info-email">
-                    <a  href="javascript:void(0);">info@gmail.com</a>
+                    <a href="javascript:void(0);">info@gmail.com</a>
                 </div>
             </div>
             <div class="col-md-3">
