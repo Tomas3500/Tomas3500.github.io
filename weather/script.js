@@ -1,7 +1,7 @@
 function show() {
     let cityId = document.querySelector('#city').value;
     let countryId = document.querySelector('#country').value;
-    fetch(`http://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=395fdbf92bcc5120cad3e5dc85badec6`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=395fdbf92bcc5120cad3e5dc85badec6`)
         .then(function (resp) { return resp.json() })
         .then(function (data) {
             // console.log(data);
